@@ -1,0 +1,7 @@
+<section>
+    <div class="card" *ngFor="let personagem of listaPersonagens">
+        <h2>{{ personagem.name | uppercase }}</h2>
+        <img src="{{ personagem.image }}" alt="" height="400px">
+        <h3 fonte>{{ personagem.house | casa }}</h3>
+    </div>
+</section>
