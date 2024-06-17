@@ -11,6 +11,8 @@ import { FooterComponent } from './componentes/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CasaPipe } from './pipes/casa.pipe';
 import { FonteDirective } from './diretivas/fonte.directive';
+import { MagiasComponent } from './paginas/magias/magias.component';
+import { GeneroPipe } from './pipes/genero.pipe';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { FonteDirective } from './diretivas/fonte.directive';
     HeaderComponent,
     FooterComponent,
     CasaPipe,
-    FonteDirective
+    FonteDirective,
+    MagiasComponent,
+    GeneroPipe
   ],
   imports: [
     BrowserModule,
